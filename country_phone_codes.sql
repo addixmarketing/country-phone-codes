@@ -2,7 +2,7 @@ CREATE TABLE country_phone_codes (
     id INT AUTO_INCREMENT PRIMARY KEY,
     country_name VARCHAR(100) NOT NULL,
     country_code VARCHAR(5) NOT NULL,
-    phone_code VARCHAR(10) NOT NULL
+    phone_code VARCHAR(50) NOT NULL
 );
 
 INSERT INTO country_phone_codes (country_name, country_code, phone_code) VALUES
